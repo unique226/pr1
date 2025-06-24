@@ -1,0 +1,31 @@
+#h1{
+    margin-left: 600px;
+}
+
+@media screen and (max-width:600px) {
+    #h{
+        font-size: 26px;
+    }
+
+}
+@media screen and (min-width:600px){
+    #h{
+        font-size: 40px;
+        color: red;
+    }
+}
+@media screen and (min-width:748px) {
+    #h{
+        font-size: 45px;
+         margin-left: 50px;
+         color: blue;
+    }
+}
+@media screen and (min-width:1024px) {
+    #h{
+        font-size: 60px;
+         margin-left: 500px;
+         color: rgb(255, 0, 183);
+    }
+}
+

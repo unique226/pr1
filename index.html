@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOSPITALRAJESH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <nav id="navbar">
+      <button id="button1" onclick="window.location.href=index.html">HOME</button>
+      <select  id="select1" onchange="window.location.href=this.value">
+        <option  hidden>SELECT</option>
+        <option value="/doctors/gopal.html">GOPAL</option>
+        <option value="/doctors/subash.html">SUBASH</option>
+      </select>
+      <button id="treatments">TREATMENTS</button>
+    </nav>
+  </div>
+</body>
+<script>
+  var button1=document.getElementById('button1');
+  var select1=document.getElementById('select1');
+  var treatments=document.getElementById('treatments');
+
+treatments.addEventListener('click',function(){
+  window.location.href='doctors/treatments.html';
+})
+</script>
+</html>
